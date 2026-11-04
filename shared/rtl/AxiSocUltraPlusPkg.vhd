@@ -65,5 +65,6 @@ package AxiSocUltraPlusPkg is
    constant HW_TYPE_XILINX_ZCU102_C         : slv(31 downto 0) := x"00_00_00_09"; -- XilinxZcu102
    constant HW_TYPE_SLAC_RFMC_CARRIER_C     : slv(31 downto 0) := x"00_00_00_0A"; -- SlacRfmcCarrier
    constant HW_TYPE_XILINX_KR260_C          : slv(31 downto 0) := x"00_00_00_0B"; -- XilinxKriaKr260
+   constant HW_TYPE_XILINX_ZCU104_C         : slv(31 downto 0) := x"00_00_00_0C"; -- XilinxZcu104
 
 end package AxiSocUltraPlusPkg;

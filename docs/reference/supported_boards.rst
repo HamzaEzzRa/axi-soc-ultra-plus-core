@@ -56,7 +56,8 @@ The following application repos target different Xilinx Zynq UltraScale+ SoC boa
      - SimpleSlacRfmcCarrierExample
      - Pending verification
 
-The ``hardware/TrenzTe0835`` board directory has no public ``Simple-*-Example`` repo.
+The ``hardware/TrenzTe0835`` and ``hardware/XilinxZcu104`` board directories have no public
+``Simple-*-Example`` repo.
 
 Finding the target directory name
 ---------------------------------

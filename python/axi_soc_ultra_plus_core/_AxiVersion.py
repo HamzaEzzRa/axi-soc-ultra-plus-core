@@ -101,6 +101,7 @@ class AxiVersion(axi.AxiVersion):
                 0x00_00_00_09: 'XilinxZcu102',
                 0x00_00_00_0A: 'SlacRfmcCarrier',
                 0x00_00_00_0B: 'XilinxKriaKr260',
+                0x00_00_00_0C: 'XilinxZcu104',
             },
         ))
 

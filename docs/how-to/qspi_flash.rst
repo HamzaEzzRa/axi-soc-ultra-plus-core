@@ -59,8 +59,8 @@ Prerequisites
 
 Every board in the table below wires QSPI as ``Dual Parallel`` with a
 ``x4`` data mode, which is the ``qspi-x8-dual_parallel`` flash type.  Only
-the density differs.  (The KV260 configures QSPI as ``Single`` and the
-RFSoC 4x2 leaves it disabled, so neither is covered here.)  Read it from the ``parallel-memories`` property of the
+the density differs.  (The KV260 and ZCU104 configure QSPI as ``Single`` and the
+RFSoC 4x2 leaves it disabled, so none of them is covered here.)  Read it from the ``parallel-memories`` property of the
 ``&qspi`` node in the board's device tree, which lists the size of each of
 the two parallel devices:
 

@@ -1,0 +1,15 @@
+/ {
+	chosen {
+		/* 2 GB of PS DDR: the 1.5 GB CMA of the 4 GB boards leaves too little for the RAM root */
+		bootargs = " earlycon console=ttyPS0,115200 clk_ignore_unused root=/dev/ram0 rw net.ifnames=0 biosdevname=0 cma=512M";
+		stdout-path = "serial0:115200n8";
+	};
+};
+/ {
+	axi_stream_dma_0@b0000000 {
+		compatible = "axi_stream_dma";
+		reg = <0x0 0xb0000000 0x0 0x10000>;
+		interrupts = <0 89 4>;
+		interrupt-parent = <&gic>;
+	};
+};
